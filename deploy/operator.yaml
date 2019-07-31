@@ -16,7 +16,7 @@ spec:
       containers:
         - name: tungstenfabric-operator
           # Replace this with the built image name
-          image: 192.168.1.46:5000/tf-operator:v0.0.2
+          image: 192.168.1.46:5000/tf-operator:v0.0.3
           command:
           - tungstenfabric-operator
           imagePullPolicy: Always
